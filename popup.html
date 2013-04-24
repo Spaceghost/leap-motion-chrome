@@ -1,13 +1,25 @@
 <!doctype html>
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>Gesture guide:</title>
     <style>
       body {
         min-width: 357px;
         overflow-x: hidden;
+        font-family: sans-serif, arial;
+        font-size: 14px;
+        color: #333;
       }
-
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+      .header {
+        font-size: 20px;
+        font-weight: bold;
+      }
       img {
         margin: 5px;
         border: 2px solid black;
@@ -16,16 +28,17 @@
         height: 75px;
       }
     </style>
-
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-     -->
-    <script src="popup.js"></script>
+    <!--<script src="popup.js"></script>-->
   </head>
   <body>
+    <div class='header'>Gesture Guide</div>
+    <ul>
+<!--       <li><b>Continuous scroll:</b> move hand up or down</li> -->
+      <li><b>Scroll down:</b> extend pointer finger and "tap" it downwards</li>
+      <li><b>Scroll up:</b> stretch out fingers and swipe hand upwards</li>
+<!--       <li><b>Back / Forwards:</b> swipe left or right with your hand open</li>
+      <li><b>Close tab:</b> circle gesture (make a circle with your pointer finger extended)</li> -->
+    </ul>
   </body>
 </html>
 
